@@ -29,13 +29,13 @@ public class Planking implements Strategy{
                 }
             }, 2500);
             if (LordPlanking.LOG_ID == Constants.LOGS) {
-                Menu.sendAction(431, 50, 0, 39007, 2213, 2);
+                Menu.clickButton(39007);
             } else if (LordPlanking.LOG_ID == Constants.OAKLOGS) {
-                Menu.sendAction(431, 50, 0, 39008, 1276, 2);
+                Menu.clickButton(39008);
             } else if (LordPlanking.LOG_ID == Constants.TEAKLOGS) {
-                Menu.sendAction(431, 50, 0, 39009, 1276, 2);
+                Menu.clickButton(39009);
             } else if (LordPlanking.LOG_ID == Constants.MAHOGANYLOGS) {
-                Menu.sendAction(431, 50, 0, 39010, 1276, 2);
+                Menu.clickButton(39010);
             }
             Time.sleep(new SleepCondition() {
                 @Override
